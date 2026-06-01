@@ -92,7 +92,7 @@ def dispatch(state: SalesState) -> Literal["qualify", "product", "objection", "e
 qualify_agent = create_react_agent(
     _llm(),
     tools=[lookup_lead, upsert_lead, score_lead],
-    state_modifier="""You are a sales qualification specialist.
+    prompt="""You are a sales qualification specialist.
 
 Your goal: uncover Budget, Authority, Need, and Timeline through natural,
 helpful conversation — never an interrogation.
@@ -134,7 +134,7 @@ def qualify_node(state: SalesState) -> dict:
 product_agent = create_react_agent(
     _llm(),
     tools=[search_product_catalog, schedule_followup],
-    state_modifier="""You are a product expert for our sales team.
+    prompt="""You are a product expert for our sales team.
 
 Guidelines:
 - Always call search_product_catalog before answering product questions.
@@ -158,7 +158,7 @@ def product_node(state: SalesState) -> dict:
 objection_agent = create_react_agent(
     _llm(),
     tools=[search_product_catalog],
-    state_modifier="""You are an expert at handling sales objections empathetically.
+    prompt="""You are an expert at handling sales objections empathetically.
 
 Framework: Acknowledge → Clarify → Reframe
 
@@ -232,11 +232,12 @@ def build_graph(checkpointer=None):
         "__end__":   END,
     })
 
-    # All conversation agents loop back to the router for the next turn
+    # Each agent ends the turn; the checkpointer persists state for the next message.
+    # Looping back to the router caused the router to re-classify the agent's own
+    # AI response, frequently mislabelling it as "end" and producing an empty reply.
     for node in ["qualify", "product", "objection"]:
-        builder.add_edge(node, "router")
+        builder.add_edge(node, END)
 
-    # Escalation terminates the graph
     builder.add_edge("escalate", END)
 
     return builder.compile(checkpointer=checkpointer)

@@ -49,7 +49,7 @@ python scripts/seed_all.py
 
 ### 5. Run the API
 ```bash
-uvicorn app.api.main:app --reload
+../.venv/bin/uvicorn app.api.main:app --reload --port 8000
 ```
 
 ### 6. Test a conversation

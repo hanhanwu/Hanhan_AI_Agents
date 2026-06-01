@@ -98,7 +98,6 @@ async def chat(req: ChatRequest):
         "messages": [{"role": "user", "content": req.message}],
         "session_id": req.session_id,
         "crm_context": crm_context,
-        "lead_score": 0.0,
         "intent": "",
         "next": "product",
     }
