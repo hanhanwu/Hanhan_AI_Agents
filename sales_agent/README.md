@@ -30,11 +30,12 @@ pip install -r requirements.txt
 ### 2. Configure environment
 ```bash
 cp .env.example .env
-# Fill in ANTHROPIC_API_KEY, SUPABASE_URL, SUPABASE_SERVICE_KEY
+# Fill in values
 ```
 
 ### 3. Run Supabase migrations
 ```bash
+brew install supabase/tap/supabase
 supabase db push
 # or apply manually via Supabase dashboard SQL editor
 ```
