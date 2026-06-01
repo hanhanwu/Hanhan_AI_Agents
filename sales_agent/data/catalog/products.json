@@ -1,0 +1,42 @@
+[
+  {
+    "content": "Starter Plan — $49 per month, up to 5 users. Includes core CRM features: contact and company management, visual deal pipeline with drag-and-drop stages, two-way email sync with Gmail and Outlook, basic activity timeline, and standard CSV import/export. Mobile app included. Best for solo founders, freelancers, or small teams just beginning to systematise their sales process. No credit card required for the 14-day free trial.",
+    "metadata": { "title": "Starter Plan", "tier": "starter", "price": "$49/mo", "users": "up to 5" }
+  },
+  {
+    "content": "Growth Plan — $149 per month, up to 25 users. Everything in Starter plus: sales automation workflows (triggers, conditions, actions), custom deal stages and pipeline templates, email sequences with open/click tracking, reporting dashboards with 20+ pre-built reports, Slack and Zapier integrations, bulk email sending (500/day), and priority email support with 8-hour SLA. Best for growing teams that need to automate repetitive tasks and track performance.",
+    "metadata": { "title": "Growth Plan", "tier": "growth", "price": "$149/mo", "users": "up to 25" }
+  },
+  {
+    "content": "Enterprise Plan — custom pricing, unlimited users. Everything in Growth plus: SSO via SAML 2.0 (Okta, Azure AD), dedicated Customer Success Manager, custom SLA (99.9% uptime guarantee), full REST API access with higher rate limits, advanced role-based permissions, custom data retention policies, audit logs, sandbox environment, on-boarding and migration services, and quarterly business reviews. Required for organisations in regulated industries (healthcare, finance, legal).",
+    "metadata": { "title": "Enterprise Plan", "tier": "enterprise", "price": "Custom", "users": "Unlimited" }
+  },
+  {
+    "content": "CRM Integration Add-on — $29 per month. Bi-directional sync with Salesforce, HubSpot, or Pipedrive. Contacts, companies, deals, and activities sync every 15 minutes. Field mapping is fully customisable. Supports multiple CRM connections simultaneously. Conflict resolution rules prevent data overwrites. Available on Growth and Enterprise plans. Typical setup time: 30 minutes with the guided wizard.",
+    "metadata": { "title": "CRM Integration Add-on", "tier": "addon", "price": "$29/mo" }
+  },
+  {
+    "content": "AI Sales Assistant Add-on — $39 per month. Embedded AI that drafts follow-up emails based on deal context, summarises call notes into structured action items, suggests next best actions ranked by close probability, auto-fills deal fields from email content, and flags deals that have gone silent for more than 7 days. Powered by conversation history — the more you use it, the more personalised it becomes. Available on all plans.",
+    "metadata": { "title": "AI Sales Assistant", "tier": "addon", "price": "$39/mo" }
+  },
+  {
+    "content": "Security and Compliance Package — $49 per month. SOC 2 Type II certified. Includes: GDPR data processing agreement (DPA), CCPA compliance tools, custom data retention and deletion policies, field-level encryption for sensitive data, IP allowlisting, single sign-on (SSO), MFA enforcement, full audit logs with 12-month retention, and a dedicated security review for enterprise procurement. Required add-on for customers in healthcare (HIPAA BAA available), financial services, and government sectors.",
+    "metadata": { "title": "Security & Compliance Package", "tier": "addon", "price": "$49/mo" }
+  },
+  {
+    "content": "Reporting and Analytics Add-on — $25 per month. Unlocks advanced reporting: custom report builder with drag-and-drop fields, revenue forecasting with confidence intervals, team leaderboard and quota tracking, funnel conversion analysis by stage and rep, cohort analysis for deal velocity, and scheduled PDF/Excel report delivery to stakeholders. Integrates with Google Looker Studio and Tableau via live connector. Available on Growth and Enterprise plans.",
+    "metadata": { "title": "Reporting & Analytics Add-on", "tier": "addon", "price": "$25/mo" }
+  },
+  {
+    "content": "Onboarding and Training Services — one-time fee from $500. Includes: dedicated onboarding specialist for 4 weeks, data migration from your existing CRM (up to 50,000 records), custom pipeline and workflow configuration, team training sessions (up to 3 live Zoom sessions, recorded), and a tailored playbook document. Enterprise customers receive a full implementation project managed by a certified solutions engineer. Add-on for all plans.",
+    "metadata": { "title": "Onboarding & Training", "tier": "service", "price": "From $500 one-time" }
+  },
+  {
+    "content": "Free Trial — 14 days, no credit card required, full Growth Plan features. At the end of the trial the account downgrades to Starter unless upgraded. Trial data is never deleted. You can invite up to 10 team members during the trial. A live demo with a solutions engineer is available within 24 hours of signup — book via the in-app calendar widget. Most teams go live within one business day.",
+    "metadata": { "title": "Free Trial", "tier": "trial", "price": "Free" }
+  },
+  {
+    "content": "Pricing FAQ. Annual billing saves 20% vs monthly on all plans. Volume discounts available for 50+ seat Enterprise deals — contact sales. Non-profit organisations receive 30% off any plan with proof of status. Educational institutions qualify for the Growth plan at Starter pricing. All prices are in USD and exclude applicable taxes. Invoicing and purchase orders accepted on Enterprise. Payment methods: credit card, ACH, wire transfer.",
+    "metadata": { "title": "Pricing FAQ", "tier": "pricing", "price": "Various" }
+  }
+]

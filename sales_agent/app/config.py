@@ -3,12 +3,12 @@ from functools import lru_cache
 
 
 class Settings(BaseSettings):
-    # Anthropic
-    anthropic_api_key: str
+    # LLM
+    groq_api_key: str
 
     # Supabase
     supabase_url: str
-    supabase_service_key: str
+    supabase_service_role_key: str
     supabase_db_url: str             # direct postgres URL for LangGraph checkpointer
 
     # Embeddings
@@ -27,6 +27,7 @@ class Settings(BaseSettings):
         env_file = ".env"
         env_file_encoding = "utf-8"
         case_sensitive = False
+        extra = "ignore"
 
 
 @lru_cache()

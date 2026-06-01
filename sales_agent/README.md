@@ -36,13 +36,15 @@ cp .env.example .env
 ### 3. Run Supabase migrations
 ```bash
 brew install supabase/tap/supabase
+supabase login
+supabase link
 supabase db push
-# or apply manually via Supabase dashboard SQL editor
+# To run .sql files on Supabase
 ```
 
-### 4. Seed the product catalog
+### 4. Load all mock data in one shot
 ```bash
-python scripts/seed_catalog.py
+python scripts/seed_all.py
 ```
 
 ### 5. Run the API

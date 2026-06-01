@@ -1,0 +1,16 @@
+email,name,company,industry,budget,authority,need,timeline,lead_score,notes
+alice.morgan@techflow.io,Alice Morgan,TechFlow Inc,SaaS,high,high,high,high,1.0,VP of Sales. Team of 22 reps. Currently using spreadsheets. Ready to buy this quarter. Demo booked.
+raj.patel@buildwise.com,Raj Patel,BuildWise Construction,Construction,medium,high,high,medium,0.75,CEO of 80-person firm. Wants pipeline visibility. Evaluating us vs Pipedrive. Needs SSO.
+sarah.chen@nimblemed.org,Sarah Chen,NimbleMed,Healthcare,high,medium,high,low,0.63,Director of Business Development. HIPAA compliance non-negotiable. Budget approved but timeline unclear — new fiscal year.
+tom.harris@retailedge.com,Tom Harris,RetailEdge,Retail,low,low,medium,low,0.13,Sales Manager. Budget not yet approved. Not the decision-maker — CFO needs to sign off. Exploring options.
+priya.sharma@finvault.com,Priya Sharma,FinVault,Financial Services,high,high,medium,high,0.88,COO. 15-person team. Compliance package required. Wants to migrate from Salesforce. High urgency — current contract ends in 6 weeks.
+daniel.kim@launchpadvc.com,Daniel Kim,LaunchPad VC,Venture Capital,medium,high,high,medium,0.75,Partner. Manages 12 portfolio companies. Wants multi-company dashboard. Interested in API access.
+emily.watson@logistix.co,Emily Watson,Logistix Co,Logistics,medium,medium,medium,medium,0.5,Operations Manager. Team of 8. Reasonable budget. Not the final decision-maker — reports to COO. 3-month evaluation period.
+marcus.johnson@edutechpro.com,Marcus Johnson,EduTech Pro,Education,low,high,high,low,0.5,CTO. Qualifies for edu discount. Strong need but no budget until September. High authority — will buy when funds available.
+lisa.nguyen@sparkretail.com,Lisa Nguyen,Spark Retail,E-commerce,medium,high,low,high,0.63,Head of Sales. Urgently needs something but hasn't articulated a clear pain point yet. Good authority and budget. Needs one more discovery call.
+james.oconnor@greenbuild.ie,James O'Connor,GreenBuild Ireland,Construction,medium,low,medium,medium,0.38,Sales Rep (not a decision-maker). Gathering info for his manager. Low authority. Passed basic info — needs re-qualifying with manager.
+nina.park@cloudscale.ai,Nina Park,CloudScale AI,AI/ML,high,high,high,high,1.0,VP Revenue. 40-person sales team. Evaluating us and Hubspot. Demo completed. Proposal sent. Decision expected this week.
+oliver.wright@lawfirm360.com,Oliver Wright,LawFirm 360,Legal,high,high,medium,medium,0.75,Managing Partner. 6 attorneys. Needs SOC 2 and audit logs. Price-sensitive but authority is clear.
+anna.kowalski@manufact.pl,Anna Kowalski,Manufact Poland,Manufacturing,low,medium,low,low,0.13,IT Manager. Exploratory only. Budget not allocated. Possible future opportunity — add to nurture sequence.
+ben.taylor@proptech.nyc,Ben Taylor,PropTech NYC,Real Estate,medium,medium,high,medium,0.5,Sales Director. Strong need (tracking 200+ deals manually). Budget and authority partially confirmed. Mid-funnel.
+diana.foster@insuretrust.com,Diana Foster,InsureTrust,Insurance,high,high,high,medium,0.88,Chief Revenue Officer. 35-rep team. Needs compliance package. Very engaged — attended webinar and requested case studies.

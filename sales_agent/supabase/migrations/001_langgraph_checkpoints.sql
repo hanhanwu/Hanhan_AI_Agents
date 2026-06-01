@@ -1,6 +1,4 @@
 -- supabase/migrations/001_langgraph_checkpoints.sql
---
--- LangGraph checkpoint tables. Dropped and recreated so RLS is guaranteed.
 
 -- Drop in reverse dependency order
 drop table if exists checkpoint_writes cascade;

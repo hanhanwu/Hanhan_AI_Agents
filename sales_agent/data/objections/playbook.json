@@ -1,0 +1,50 @@
+[
+  {
+    "content": "Objection: 'It's too expensive' or 'Your pricing is too high.' Category: Price. Acknowledge that budget matters and ask what they're comparing against. Reframe around ROI: a team of 10 closing just one extra deal per month at an average deal size of $5,000 pays for a year of Growth plan in a single day. Offer to start with Starter plan and upgrade when they see results. Mention annual billing saves 20%. Ask: 'What would need to be true for the value to justify the investment?'",
+    "metadata": { "category": "price", "severity": "high", "response_type": "reframe_roi" }
+  },
+  {
+    "content": "Objection: 'We're already using [Salesforce / HubSpot / Pipedrive].' Category: Competitor. Acknowledge their existing investment is real. Ask how it's working for them and listen for frustrations (complexity, cost, adoption). Differentiate: we are 60% cheaper than Salesforce, set up in hours not months, and have a 4.8/5 ease-of-use rating vs Salesforce's 3.9. Offer a free migration service for Enterprise. For HubSpot: our CRM Integration add-on can sync both systems so they don't lose history.",
+    "metadata": { "category": "competitor", "severity": "high", "response_type": "differentiate" }
+  },
+  {
+    "content": "Objection: 'Now is not a good time' or 'We're too busy to implement this.' Category: Timing. Validate that implementation takes effort — then reframe: our average onboarding is 1 business day for Starter and 1 week for Growth. Ask what they're too busy doing — if the answer involves manual sales tracking, that is exactly the problem we solve. Offer a phased rollout: start with one team, expand later. Ask: 'If not now, when would be a good time — and what would need to change?'",
+    "metadata": { "category": "timing", "severity": "medium", "response_type": "reframe_effort" }
+  },
+  {
+    "content": "Objection: 'I need to check with my boss / get approval.' Category: Authority. Don't stop here. Offer to run a joint call with the decision-maker — provide a one-page business case they can take to their manager. Ask: 'What would your manager's biggest concern likely be?' Then address that concern now so the champion walks in prepared. Offer ROI calculator output as a leave-behind. This is a qualification signal — log authority as 'medium' in CRM.",
+    "metadata": { "category": "authority", "severity": "medium", "response_type": "enable_champion" }
+  },
+  {
+    "content": "Objection: 'We don't really need a CRM — we use spreadsheets.' Category: Need. Validate that spreadsheets work up to a point. Ask: how many deals are you tracking? How do you know which rep follows up when? What happens when someone leaves? Surface the hidden costs: lost deals from missed follow-ups, no visibility for the manager, no forecasting. Show the product catalog entry for Starter plan — low barrier to start. Ask: 'What would have to go wrong on a spreadsheet before you'd consider a change?'",
+    "metadata": { "category": "need", "severity": "high", "response_type": "surface_pain" }
+  },
+  {
+    "content": "Objection: 'We tried a CRM before and it failed.' Category: Past experience. This is an emotional objection — lead with empathy, not facts. Ask what happened: Was it adoption? Complexity? Cost? Too much customisation required? Address the specific past failure directly. Offer: our 14-day trial requires no IT involvement, no data migration, no training budget — one rep can set it up in an afternoon. Offer to connect them with a customer reference who had a similar bad past experience.",
+    "metadata": { "category": "past_experience", "severity": "high", "response_type": "empathy_then_differentiate" }
+  },
+  {
+    "content": "Objection: 'Your competitor is cheaper' or 'I got a lower quote.' Category: Price comparison. Ask to see the quote — often cheaper tools exclude features that are included in our base plan (email sequences, automation, reporting). Build a feature comparison side-by-side. If they are genuinely cheaper on a like-for-like basis, anchor to total cost of ownership: implementation time, support quality, churn/re-implementation costs. Offer annual billing or a volume discount if deal size justifies it.",
+    "metadata": { "category": "price_comparison", "severity": "high", "response_type": "tco_comparison" }
+  },
+  {
+    "content": "Objection: 'We need [specific feature] that you don't have.' Category: Feature gap. First, check the product catalog — the feature may exist under a different name or in an add-on. If genuinely missing: ask how critical it is on a scale of 1–10. If 7+, log as product feedback and escalate to account executive. Ask: 'If we could solve that gap in the next quarter, would everything else make sense?' Offer a workaround via Zapier integration in the meantime. Never overpromise a roadmap item.",
+    "metadata": { "category": "feature_gap", "severity": "medium", "response_type": "workaround_or_escalate" }
+  },
+  {
+    "content": "Objection: 'How do we know our data is safe?' or 'We have compliance requirements.' Category: Security. Direct them to the Security and Compliance Package. Highlight: SOC 2 Type II, GDPR DPA, field-level encryption, audit logs, SSO, MFA enforcement. For healthcare: HIPAA BAA is available on Enterprise. For financial services: we support CCPA and custom data retention. Offer to connect their IT/security team directly with our security team for a review call. Share the trust page URL.",
+    "metadata": { "category": "security", "severity": "high", "response_type": "evidence_and_escalate" }
+  },
+  {
+    "content": "Objection: 'What happens to our data if we cancel?' Category: Lock-in / trust. Reassure immediately: all data is exportable as CSV or via API at any time, including after cancellation. We retain data for 90 days post-cancellation at no charge so nothing is lost in transition. We don't believe in data hostage tactics — customers stay because the product works, not because leaving is painful. This objection often signals low trust — ask if there's a specific past experience driving it.",
+    "metadata": { "category": "trust_lockin", "severity": "medium", "response_type": "reassure" }
+  },
+  {
+    "content": "Objection: 'We're a small team — this feels like overkill.' Category: Fit. Validate the concern. Starter plan is designed exactly for small teams (up to 5 users, $49/month). Walk through the 5 things a 3-person sales team gets immediately: no more lost follow-ups, shared pipeline visibility, email tracking, mobile app, and one-click reporting for the founder. Small teams often get the most ROI because every deal matters more. Offer the free trial — no commitment, 14 days.",
+    "metadata": { "category": "fit_small_team", "severity": "low", "response_type": "right_size" }
+  },
+  {
+    "content": "Objection: 'Your reviews mention the mobile app is limited.' Category: Product concern. Acknowledge the feedback is real — earlier versions of the mobile app were limited. As of this year the mobile app supports full pipeline management, contact editing, call logging, and push notifications for deal activity. Ask what specific mobile use cases matter most to them and confirm each one is covered. Offer a 15-minute mobile walkthrough on a call.",
+    "metadata": { "category": "product_concern", "severity": "low", "response_type": "acknowledge_and_update" }
+  }
+]

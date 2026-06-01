@@ -1,6 +1,6 @@
 -- supabase/migrations/004_enable_rls.sql
 --
--- Enable Row Level Security on all tables.
+-- Enable Row Level Security (RLS) on all tables.
 -- Previous migrations were already applied without RLS, so this migration
 -- retroactively locks them down. The service_role key used by the API server
 -- bypasses RLS automatically; all other roles are denied.

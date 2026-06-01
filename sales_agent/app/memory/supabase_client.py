@@ -17,7 +17,7 @@ from app.config import get_settings
 @lru_cache()
 def supabase_client() -> Client:
     s = get_settings()
-    return create_client(s.supabase_url, s.supabase_service_key)
+    return create_client(s.supabase_url, s.supabase_service_role_key)
 
 
 @lru_cache()

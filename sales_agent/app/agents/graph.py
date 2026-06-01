@@ -16,7 +16,7 @@ Entry point: build_graph(checkpointer) → CompiledGraph
 import logging
 from typing import Literal
 
-from langchain_anthropic import ChatAnthropic
+from langchain_groq import ChatGroq
 from langchain_core.messages import SystemMessage, HumanMessage
 from langgraph.graph import StateGraph, END
 from langgraph.prebuilt import create_react_agent
@@ -37,11 +37,11 @@ logger = logging.getLogger(__name__)
 # Shared LLM instance
 # ---------------------------------------------------------------------------
 
-def _llm() -> ChatAnthropic:
+def _llm() -> ChatGroq:
     s = get_settings()
-    return ChatAnthropic(
-        model="claude-opus-4-5",
-        anthropic_api_key=s.anthropic_api_key,
+    return ChatGroq(
+        model="llama-3.3-70b-versatile",
+        groq_api_key=s.groq_api_key,
         temperature=0.3,
     )
 
