@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     # Supabase
     supabase_url: str
     supabase_service_role_key: str
-    supabase_db_url: str             # direct postgres URL for LangGraph checkpointer
+    supabase_db_url: str = ""        # direct postgres URL for LangGraph checkpointer
 
     # Embeddings
     openai_api_key: str = ""         # used for text-embedding-3-small

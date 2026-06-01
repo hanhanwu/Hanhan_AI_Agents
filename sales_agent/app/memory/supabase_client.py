@@ -9,7 +9,7 @@ from functools import lru_cache
 
 from supabase import create_client, Client
 from langchain_community.vectorstores import SupabaseVectorStore
-from langchain_openai import OpenAIEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 
 from app.config import get_settings
 
@@ -21,12 +21,8 @@ def supabase_client() -> Client:
 
 
 @lru_cache()
-def get_embeddings() -> OpenAIEmbeddings:
-    s = get_settings()
-    return OpenAIEmbeddings(
-        model="text-embedding-3-small",
-        openai_api_key=s.openai_api_key,
-    )
+def get_embeddings() -> HuggingFaceEmbeddings:
+    return HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
 
 def get_vector_store() -> SupabaseVectorStore:
